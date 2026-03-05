@@ -3,11 +3,11 @@
 }
 
 body{
-    background-color: rgb(159, 214, 236);
+    background-color: #A7DDF2;
 }
 
 header{
-    background-color: rgb(12, 12, 121);
+    background-color: #023373;
 }
 a{
     color: white;
@@ -19,19 +19,24 @@ a{
     gap: 10px;   
 }
 .serviço-basico{
-    margin-left: 100px;
+    margin-left: 0;
 }
 .serviço-basico, .serviço-premium{
     border: 1px solid;
-    width: 500px;
+    max-width: 400px;
     height: auto;
     padding: 10px; 
     border-radius: 20px;   
 }
 .serviço-premium{
-    margin-left: 300px;
+    margin-left: 0;
 }
 .serviço-basico:hover, .serviço-premium:hover{
-    border: 1px solid blue;
-    box-shadow: 1px 1px 1px 1px black;    
+    box-shadow: 0px 0px 5px 5px #049DD9;    
+}
+li{
+    padding: 5px;
+}
+.header-menu{
+    list-style: none; /*Tira as bolinhas da lista*/
 }
