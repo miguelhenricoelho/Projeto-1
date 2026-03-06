@@ -1,13 +1,16 @@
 *{
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0;
 }
 
 body{
-    background-color: #A7DDF2;
+    background-color: white;
+    
 }
 
 header{
-    background-color: #023373;
+    background-color: rgb(4,119, 191);
 }
 a{
     color: white;
@@ -16,10 +19,9 @@ a{
     height: auto;
     width: auto;
     display: flex;
-    gap: 10px;   
-}
-.serviço-basico{
-    margin-left: 0;
+    gap: 10px; 
+    margin-top: 20px;
+      
 }
 .serviço-basico, .serviço-premium{
     border: 1px solid;
@@ -32,11 +34,29 @@ a{
     margin-left: 0;
 }
 .serviço-basico:hover, .serviço-premium:hover{
-    box-shadow: 0px 0px 5px 5px #049DD9;    
+    box-shadow: 0px 0px 3px 3px #049DD9;
+    border: 1px solid rgba(255, 255, 255, 0);    
 }
 li{
     padding: 5px;
 }
 .header-menu{
     list-style: none; /*Tira as bolinhas da lista*/
+}
+h2{
+    margin-top: 20px;
+}
+h3{
+    margin-left: 100px;
+}
+.imagem-principal{
+   width:100%;
+   
+}
+img{
+    height: 500px;
+    width: 100%;
+}
+.conteudo{
+    margin: 20px 3px 0 20px;
 }
