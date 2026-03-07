@@ -70,3 +70,16 @@ h1{
 .texto1{
     font-size: 30px;
 }
+.footer {
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    background: rgb(4, 28, 64);
+    color: white;
+    position: relative;
+    bottom: 0;
+}
+
+.footer-copy {
+    font-size: 14px;
+}
