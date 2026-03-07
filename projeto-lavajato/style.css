@@ -70,16 +70,28 @@ h1{
 .texto1{
     font-size: 30px;
 }
-.footer {
-    width: 100%;
-    padding: 15px 0;
-    text-align: center;
-    background: rgb(4, 28, 64);
-    color: white;
-    position: relative;
-    bottom: 0;
+/* FOOTER */
+
+.footer{
+background:rgb(1, 28, 64);
+color:white;
+padding:40px 0 20px;
 }
 
-.footer-copy {
-    font-size: 14px;
+.footer-container{
+display:flex;
+justify-content:space-around;
+margin-bottom:20px;
+background:rgb(1, 28, 64);
+}
+
+.footer-logo img{
+width:70px;
+margin-bottom:10px;
+}
+
+.footer-copy{
+text-align:center;
+font-size:14px;
+opacity:0.9;
 }
