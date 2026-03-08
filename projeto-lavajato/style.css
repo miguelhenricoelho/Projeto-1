@@ -13,7 +13,7 @@ header{
     background-color: rgb(4,119, 191);
 }
 a{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .container{
     height: auto;
@@ -21,55 +21,78 @@ a{
     display: flex;
     gap: 10px; 
     margin-top: 20px;
-      
-}
-.serviço-basico, .serviço-premium{
-    border: 1px solid;
-    max-width: 400px;
-    height: auto;
-    padding: 10px; 
-    border-radius: 20px;   
-}
-.serviço-premium{
-    margin-left: 0;
-}
-.serviço-basico:hover, .serviço-premium:hover{
-    box-shadow: 0px 0px 3px 3px #049DD9;
-    border: 1px solid rgba(255, 255, 255, 0);    
-}
-li{
-    padding: 5px;
-}
+}      
 .header-menu{
     list-style: none; /*Tira as bolinhas da lista*/
-}
-h2{
-    margin-top: 20px;
-}
-h3{
-    margin-left: 100px;
-}
-img{
-    width: 80%;
-    border-radius: 25px;   
-}
-.imagem-principal{
-    
-    height: 700px;
-    display: flex;
-}
-.texto{
-    margin-left: 300px;
-    margin-top: 100px;
-    height: 300px;
-    margin-right: 100px;
 }
 h1{
     font-size: 70px;
 }
-.texto1{
-    font-size: 30px;
+h2{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 40%;
 }
+h3{
+    margin-left: 100px;
+}
+.imagem-principal{
+    height: 700px;
+    display: flex;
+    
+}
+.texto{
+    margin-left: 100px;
+    margin-top: 80px;
+    height: 300px;
+    margin-right: 100px;
+}
+
+#servicos{
+    display: flex;
+    gap: 130px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.card{
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
+
+}
+
+.topo{
+    background: #1f6fb2;
+    color: white;
+    padding: 8px;
+    border-radius: 10px 10px 0 0
+}
+
+.conteudo{
+    padding: 20px;
+}
+
+.conteudo img{
+    width: 60px;
+    margin-bottom: 10px;
+    margin-left: 90px;
+}
+
+.conteudo h3{
+    margin: 10px 0;
+    font-size: 22px;
+}
+.conteudo p{
+    font-size: 19px;
+    color: #555555;
+}
+.texto_p{
+    font-size: 40px;
+    margin-top: 10px;
+}
+
 /* FOOTER */
 
 .footer{
