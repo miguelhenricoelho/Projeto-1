@@ -14,8 +14,8 @@ Link do Repositório: https://github.com/miguelhenricoelho/Projeto-1.git
 - Grid de Serviços
 
 ## Responsáveis
-Eric - GitHub: https://github.com/ericdantasdev
-Junior - GitHub: https://github.com/rogeljr25
-Miguel - GitHub: https://github.com/miguelhenricoelho
-Sidiney - GitHub: https://github.com/Sids-root
-Snádya - GitHub: https://github.com/snadyaf
+- Eric - GitHub: https://github.com/ericdantasdev
+- Junior - GitHub: https://github.com/rogeljr25
+- Miguel - GitHub: https://github.com/miguelhenricoelho
+- Sidiney - GitHub: https://github.com/Sids-root
+- Snádya - GitHub: https://github.com/snadyaf
