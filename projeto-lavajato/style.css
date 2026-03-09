@@ -16,7 +16,7 @@ body{
 }
 
 .header-logo img {
-    width: 120px;
+    width: 100px;
     height: auto;
 }
 
@@ -111,7 +111,7 @@ h3{
     margin-left: 100px;
 }
 .imagem-principal{
-    height: 700px;
+    height: 900px;
     display: flex;
 }
 .imagem-principal img{
