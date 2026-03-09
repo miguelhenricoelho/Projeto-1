@@ -77,43 +77,49 @@
 
 <!--FORMULARIO-->
 
-<div>
-<form>
-<label id="label-nome" for="nome">Nome completo:</label><br>
-<input type="text" id="nome" name="nome"><br>
-<label id="label-número" for="número">Celular / Whatsapp:</label><br>
-<input type="text" id="número" name="número"><br>
-<label id="label-tipoecategoriadoveículo" for="tipo e categoria do veículo">Tipo e Categoria do veículo:</label><br>
-<select name="categoriadoveículo" id="categoriadoveículo"><br>
-<option value="selecione um tipo de veículo">---Selecione---</option><br>
-<optgroup label="Carro">
-<option value="Compacto">Compacto</option>
-<option value="Sedan">Sedan</option>
-<option value="Suv">Suv</option>
-<option value="Caminhonete">Caminhonete</option>
-</optgroup>
-<optgroup label="Moto">
-<option value="Street">Street</option>
-<option value="Sport">Sport</option>
-<option value="Touring">Touring</option>
-<option value="Custom">Custom</option>
-</optgroup>
-</select><br>
-<label  id="label-serviçodesejado" for="serviços">Serviços desejados:</label><br>
-<select name="serviçodesejado" id="serviçodesejado">
-<option value="Selecione um tipo de lavagem">---Selecione---</option>
-<option value="lavagemsimples">Lavagem simples</option>
-<option value="lavagemcompleta">Lavagem completa</option>
-<option value="polimento">Polimento</option>
-<option value="higienizaçaointerna">Higienização interna</option>
-</select><br>
-<label id="label-datadoagendamento">Data do agendamento:</label><br>
-<input type="date" name="datadoagendamento" id="datadoagendamento"><br>
-<label id="label-observaçao">Observação:</label><br>
-<input type="text" id="observacao" name="observaçao"><br>
-<button type="submit">Agendar</button>
-</form>
-</div>
+
+    <form class="formulario">
+        <label id="label-nome" for="nome">Nome completo:</label><br>
+        <input type="text" id="nome" name="nome"><br>
+
+        <label id="label-número" for="número">Celular / Whatsapp:</label><br>
+        <input type="text" id="número" name="número"><br>
+        
+        <label id="label-tipoecategoriadoveículo" for="tipo e categoria do veículo">Tipo e Categoria do veículo:</label><br>
+
+        <select name="categoriadoveículo" id="categoriadoveículo"><br>
+            <option value="selecione um tipo de veículo">---Selecione---</option><br>
+                <optgroup label="Carro">
+                <option value="Compacto">Compacto</option>
+                <option value="Sedan">Sedan</option>
+                <option value="Suv">Suv</option>
+                <option value="Caminhonete">Caminhonete</option>
+            </optgroup>
+            <optgroup label="Moto">
+                <option value="Street">Street</option>
+                <option value="Sport">Sport</option>
+                <option value="Touring">Touring</option>
+                <option value="Custom">Custom</option>
+            </optgroup>
+        </select><br>
+        <label  id="label-serviçodesejado" for="serviços">Serviços desejados:</label><br>
+        
+        <select name="serviçodesejado" id="serviçodesejado">
+            <option value="Selecione um tipo de lavagem">---Selecione---</option>
+            <option value="lavagemsimples">Lavagem simples</option>
+            <option value="lavagemcompleta">Lavagem completa</option>
+            <option value="polimento">Polimento</option>
+            <option value="higienizaçaointerna">Higienização interna</option>
+        </select><br>
+        <label id="label-datadoagendamento">Data do agendamento:</label><br>
+        <input type="date" name="datadoagendamento" id="datadoagendamento"><br>
+
+        <label id="label-observaçao">Observação:</label><br>
+        <input type="text" id="observacao" name="observaçao"><br>
+        
+        <button type="submit">Agendar</button>
+    </form>
+
 
   <!-- FOOTER -->
     <footer class="footer" id="contato">
