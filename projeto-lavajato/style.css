@@ -43,9 +43,7 @@ a{
     width: auto;
     display: flex;
     gap: 10px; 
-    margin-top: 20px;
-<<<<<<< HEAD
-      
+    margin-top: 20px;   
 }
 .serviço-basico, .serviço-premium{
     border: 1px solid;
@@ -97,7 +95,6 @@ h1{
 
 .texto1{
     font-size: 30px;
-=======
 }      
 .header-menu{
     list-style: none; /*Tira as bolinhas da lista*/
@@ -109,7 +106,6 @@ h2{
     font-size: 40px;
     margin-top: 20px;
     margin-left: 40%;
->>>>>>> bd7d64353f4f72db8fb2af81d5afff1ca3145f5a
 }
 h3{
     margin-left: 100px;
