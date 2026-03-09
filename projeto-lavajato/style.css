@@ -39,7 +39,9 @@ h3{
 .imagem-principal{
     height: 700px;
     display: flex;
-    
+}
+.imagem-principal img{
+    border-radius: 10px;
 }
 .texto{
     margin-left: 100px;
@@ -61,6 +63,9 @@ h3{
     border-radius: 10px;
     box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
 
+}
+.card:hover{
+    box-shadow: 0px 0px 10px 3px #1f6fb2;
 }
 
 .topo{
